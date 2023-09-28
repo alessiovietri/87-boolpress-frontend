@@ -6,7 +6,7 @@ import FooterComponent from './components/FooterComponent.vue';
 export default {
 	data() {
 		return {
-
+			
 		}
 	},
 	components: {
@@ -19,7 +19,7 @@ export default {
 
 <template>
 	<HeaderComponent />
-
+	
 	<MainComponent />
 
 	<FooterComponent />

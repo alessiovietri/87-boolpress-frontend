@@ -1,24 +1,18 @@
 <script>
 export default {
-    name: 'MainComponent',
-    data() {
-        return {
-            title: 'Main Component'
-        }
-    }
+    name: 'MainComponent'
 }
 </script>
 
 <template>
     <main>
-        <h2>
-            {{ title }}
-        </h2>
+        <h6>
+            MAIN COMPONENT
+        </h6>
+
+        <router-view></router-view>
     </main>
 </template>
 
 <style scoped>
-    h2 {
-        color: red;
-    }
 </style>
